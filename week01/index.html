@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="getdates.js">
+    <script src="getdates.js" defer></script>
     <title>Home Page</title>
 </head>
 <body>
@@ -22,23 +22,29 @@
           <li><a href="#about">Final Project</a></li>  
         </ul>
       </nav>
-        
-
-      
       <main>
-        <div class="grid-container">
-            <div class="item1">
-                <h1> About me</h1>
-                <p>
-                  My name is Martin Cespedes. I was born in Buenos Aires, Argentina. I am currently working in the maintenance area in a factory. I have married. I love to play soccer with friends and spend time 
-                </p>
-              
-            </div>
-            <div class="item2">
-              <h1> Web Dev Resources</h1>
-            </div>
-          </div>
-      </main>
-      <footer contenteditable>Footer Content</footer>
+        <section class="card">
+            <h2>About me</h2>
+            <p>My name is Martin Cespedes. I was born in Buenos Aires, Argentina. I am currently working in the maintenance area in a factory. I have married. I love to play soccer with friends and spend time.</p>
+            <img src="img1.jpg" alt="Descripción de la imagen 1">
+            <a href="#">Recurso 1</a>
+            <a href="#">Recurso 2</a>
+            <a href="#">Recurso 3</a>
+        </section>
+        
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <p>Otro ejemplo de tarjeta con contenido adicional y enlaces a más recursos útiles.</p>
+            <img src="img2.jpg" alt="Descripción de la imagen 2">
+            <a href="#">Recurso 4</a>
+            <a href="#">Recurso 5</a>
+            <a href="#">Recurso 6</a>
+        </section>
+    </main>
+
+      <footer contenteditable>
+        <p>&copy; <span id="currentyear"></span> Martin Cespedes. Argentina, Buenos Aires.</p>
+        <p id="lastModified"></p>
+      </footer>
 </body>
 </html>
