@@ -5,4 +5,4 @@ yearElement.textContent = currentYear;
 
 // Obtener la última fecha de modificación del documento
 const lastModifiedElement = document.getElementById("lastModified");
-lastModifiedElement.textContent = "Última modificación: " + document.lastModified;
+lastModifiedElement.textContent = "Last Modification: " + document.lastModified;
