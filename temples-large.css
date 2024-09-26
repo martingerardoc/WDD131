@@ -1,0 +1,26 @@
+/* Responsive Styles */
+@media only screen and (min-width: 40em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#menu {
+		display: none;
+	}
+    
+    .images {
+        flex-wrap: wrap;
+    }
+
+    .images img {
+        width: 48%;
+        margin-bottom: 10px;
+    }
+
+}
