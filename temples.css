@@ -24,7 +24,13 @@ body {
 }
 
 nav {
-	background-color: #003366;
+	background-color: #3c99f5;
+}
+h1,h2 {
+    margin: 0;
+    background-color: #3c99f5;
+    color: white;
+    padding: 10px 0;
 }
 .navigation {
 	list-style: none;
@@ -56,30 +62,37 @@ nav {
 	display: block;
 }
 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
 #menu.show::before {
 	content: "X";
 }
 
-main {
+.grid {
+    display: grid;
+  }
+  
+  main {
     padding: 20px;
-}
-
-.gallery {
-    margin: 20px 0;
-}
-
-.images {
-    display: flex;
-    justify-content: space-between;
-}
-
-.images img {
-    width: 18%;
-    border-radius: 8px;
-}
+  }
+  
+  figure {
+    margin: 10px 0;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
 
 footer {
-    background-color: #333;
+    background-color: #3c99f5;
     color: white;
     text-align: center;
     padding: 20px 0;
