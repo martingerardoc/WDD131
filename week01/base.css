@@ -29,7 +29,7 @@ body {
   /*NAVIGATION*/
   nav{
     grid-column: 1 / 4;
-    float: center;
+    text-align: center;
   }
   ul {
     list-style-type: none;
@@ -37,7 +37,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    float: center;
+    text-align: center;
    
   }
   
