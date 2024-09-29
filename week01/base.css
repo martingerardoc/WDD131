@@ -11,13 +11,14 @@ body {
   color: #333;
   }
   /* Header */
-  header {
+  header,nav {
     background-color: #003366;
     color: white;
     padding: 20px 0;
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
+    grid-column: 1 / 4;
   }
 
   h1,h2 {
@@ -27,10 +28,7 @@ body {
     padding: 10px 0;
   }
   /*NAVIGATION*/
-  nav{
-    grid-column: 1 / 4;
-    text-align: center;
-  }
+ 
   ul {
     list-style-type: none;
     margin: 0;
